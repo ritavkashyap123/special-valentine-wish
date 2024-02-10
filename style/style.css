@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  overflow-y: scroll;
+  
 }
 
 .container {
@@ -265,6 +267,11 @@ body {
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
+    height: 200vh;
+  }
+
+  .one {
+    font-size: 3rem;
   }
 
   .four .text-box {
@@ -298,7 +305,7 @@ body {
   }
 
   .nine p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: lighter;
   }
 }
