@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-  height: 100vh;
-  width: 150vh;
+  height: 150vh;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   visibility: hidden;
